@@ -49,6 +49,10 @@
       <Project>{7FC8A68E-3531-43E9-BC89-18757A7E1F8E}</Project>
       <Name>Core</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Entities\Entities.csproj">
+      <Project>{ab1c5fef-b6e1-4f97-98d2-fcc7ec75ac3a}</Project>
+      <Name>Entities</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Interfaces\Interfaces.csproj">
       <Project>{76056eba-7a95-4100-bc51-be0426f54bf5}</Project>
       <Name>Interfaces</Name>

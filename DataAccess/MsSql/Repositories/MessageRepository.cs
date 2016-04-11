@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Entities;
 
 namespace MsSql.Repositories
 {
@@ -17,7 +18,7 @@ namespace MsSql.Repositories
             this.database = database;
         }
 
-        public bool CreateMessage(string text)
+        public IEnumerable<Message> GetMessages(int articleId)
         {
             throw new NotImplementedException();
         }
