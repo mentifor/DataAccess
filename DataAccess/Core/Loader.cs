@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Core
 {
-    public abstract class Reader<T>
+    public abstract class Loader<T>
         where T : class
     {
         public abstract List<T> LoadList(DbDataReader reader);

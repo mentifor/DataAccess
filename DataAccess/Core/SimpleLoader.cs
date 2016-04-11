@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Core
 {
-    public class SimpleReader<T> : Reader<T>
+    public class SimpleLoader<T> : Loader<T>
         where T : class
     {
         private readonly Func<DbDataReader, T> entityReader;
-        public SimpleReader(Func<DbDataReader, T> reader)
+        public SimpleLoader(Func<DbDataReader, T> reader)
         {
             entityReader = reader;
         }
